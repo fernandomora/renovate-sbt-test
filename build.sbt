@@ -4,7 +4,7 @@ name := "renovate-sbt-test"
 organization := "com.fernandomora"
 version := "1.0"
 libraryDependencies ++= Seq(
-  "com.intenthq" %% "scala-secret" %   "1.0.0"
+  "com.intenthq" %% "scala-secret" %   "1.1.0"
 )
 
 resolvers += "GitHub Package Registry (intenthq)" at "https://maven.pkg.github.com/intenthq/_"
