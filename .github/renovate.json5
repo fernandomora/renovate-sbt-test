@@ -1,0 +1,16 @@
+{
+  "extends": ["config:base"],
+  "dependencyDashboard": true,
+  "enabledManagers": ["sbt"],
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
+  "labels": ["dependencies"],
+  "hostRules": [
+    {
+      "matchHost": "maven.pkg.github.com",
+      "encrypted": {
+        "token": "wcFMA+WpOxL2fqefARAAiU/bWfAhM0YRHcg9EZsoifl6LKKe53KjCFSuMtcaH4HEP8CP7XZigoRrYDq/PtIjLBBEkF0dddIRhxT5rkrXbfCSEv2CmxsNKbbiak+s9hJ54qxW3R2sHNd9KknW9hP6trHRlHL9fmG5tYF6y+dOU7uOsZ/gLZICSw5vvU3BeETIsa9VWCXhi9XCh/eoNVs63OXbmVl8cmNNWFEzsgo2x/Z0xkYPLD+ULUGJtFGZXjZgMEA8BS+SSPc8PPRXpFW/r/N807xfPyXH8JDBfO04KSXUT3GiBJxhUfA8X+NYOqPkSVBn5k1jaJv8+ptSRehQ/ejkEqkQEGQq8FcapW/6EfWvT+D7r7kykXYKzNzzxoeN2fszn9QGHzUznySNRoICudjXAoYAgA0uqk8bsTiClgX14+a/sXuWOrPHfko8e/uZoVLv0I1wM0Tb9bzlnoejdatB5IyKESiMTuZSQT3g+DLFD8+6aAkHCuJ/XdBEGQaLXIMk2jzP7TLhfipxhrbWgDm4dt4foStrS7JVT63BeDu/wfLY3O8jNJ5v1WFhl8rk6ADmgeeSBuBkz298SFtsg9N8Uaub26pmMJA+QVeDATio64DmoIr3GnHGIoL22Z0yPp6yRAVtbDD1/zCGdfesabII57BEWV5rDfD9Fk1JFHjm5dvcjE5qkzBWG2dpXEPSewEG2b/jqMTyfOfENwnhqwJRhhZ/im/bO6UjkM6mT2a37xJgjMPUBWybb7FQHDHficZYMcpdbMJVbkQp8AYxWlQVJYEVkMyr+Ea6rgAlUbYryRsfkneMn9QY3ZqXrHtgxF6j7GAyAYuxtOgatfq93Ovm4dxRh34eeT7irw"
+      },
+    }
+  ]
+}
